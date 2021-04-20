@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  margin: 20px;
+  background: azure;
+  color: black;
+  font-size: 1rem;
+}
+
+.teamView {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.teamData {
+  grid-column: 1/2;
+  background: bisque;
+  padding: 20px;
+}
+
+.details {
+  background: cadetblue;
+  grid-column: 2/3;
+  transition: ease-in 1s;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  transition: font-size;
+}
+
+a:hover {
+  font-size: 1.1rem;
+}
+
+
+

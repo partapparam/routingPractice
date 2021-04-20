@@ -1,10 +1,19 @@
-<p>player-list works!</p>
-<p *ngIf="(players$)">This is here</p>
-<h2>Players</h2>
-<div *ngFor="let player of players$">
-  {{player.first_name}} {{player.last_name}}
-</div>
-<h2>Coaches</h2>
-<div *ngFor="let coach of coaches$">
-  {{coach.first_name}} {{ coach.last_name }}
+<div *ngIf="team$" class="teamView">
+  <div>
+    <h3><a routerLink="">Back</a></h3>
+  </div>
+  <div class="teamData">
+    <h1>{{team$.team_city + ' ' + team$.team_nickname}}</h1>
+    <h2>Players</h2>
+    <div *ngFor="let player of players$">
+      <a (click)="showDetail(player); show = true" [routerLink]="['detail', player.player_code]">{{player.first_name + ' ' + player.last_name}}</a>
+    </div>
+    <h2>Coaches</h2>
+    <div *ngFor="let coach of coaches$">
+      <a (click)="showDetail(coach); show=true;" [routerLink]="['detail', coach.coach_code]">{{coach.first_name + ' ' + coach.last_name}}</a>
+    </div>
+  </div>
+  <div class="details" *ngIf="show" [@enterAnimation] >
+    <app-detail [detail]="detailData"></app-detail>
+  </div>
 </div>

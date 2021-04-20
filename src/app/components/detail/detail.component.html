@@ -1,0 +1,14 @@
+<div>
+  <h2>{{detail.first_name + ' ' + detail.last_name}}</h2>
+<!--  specific for players -->
+  <div *ngIf="detail.years_pro">
+    <h3>Country: {{detail.elias_country}}</h3>
+    <h3>Years Pro: {{detail.years_pro}}</h3>
+    <h3>Position: {{detail.position_full}}</h3>
+  </div>
+<!--   specific for coaches-->
+  <div *ngIf="detail.coach_code">
+    <h3>Coach</h3>
+    <h3>College: {{detail.college}}</h3>
+  </div>
+</div>

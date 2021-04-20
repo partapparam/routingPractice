@@ -8,17 +8,21 @@ import { PlayerListComponent } from './components/player-list/player-list.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
+import { DetailComponent } from './components/detail/detail.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
     TeamListComponent,
     PlayerListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
     CommonModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule
   ],
