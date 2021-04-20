@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Atlanta Hawks",
+    "api": "hawks"
+  },
+  {
+    "name": "Boston Celtics",
+    "api": "celtics"
+  },
+  {
+      "name": "Brooklyn Nets",
+      "api": "nets"
+    },
+    {
+      "name": "Charlotte Hornets",
+      "api": "hornets"
+    },
+    {
+      "name": "Chicago Bulls",
+      "api": "bulls"
+    },
+    {
+      "name": "Cleveland Cavaliers",
+      "api": "cavaliers"
+    },
+    {
+      "name": "Dallas Mavericks",
+      "api": "mavericks"
+    },
+    {
+      "name": "Denver Nuggets",
+      "api": "nuggets"
+    },{
+      "name": "Detroit Pistons",
+      "api": "pistons"
+    },{
+      "name": "Golden State Warriors",
+      "api": "warriors"
+    },{
+      "name": "Houston Rockets",
+      "api": "rockets"
+    },
+    {
+      "name": "Indiana Pacers",
+      "api": "pacers"
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "api": "clippers"
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "api": "lakers"
+    },
+    {
+      "name": "Memphis Grizzlies",
+      "api": "grizzlies"
+    },
+    {
+      "name": "Miami Heat",
+      "api": "heat"
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "api": "bucks"
+    },
+    {
+      "name": "Minnesota Timberwolves",
+      "api": "timberwolves"
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "api": "pelicans"
+    },
+    {
+      "name": "New York Knicks",
+      "api": "knicks"
+    },
+    {
+      "name": "OKC Thunder",
+      "api": "thunder"
+    },
+    {
+      "name": "Orlando Magic",
+      "api": "magic"
+    },
+    {
+      "name": "Philadelphia 76ers",
+      "api": "sixers"
+    },
+    {
+      "name": "Phoenix Suns",
+      "api": "suns"
+    },
+    {
+      "name": "Portland Blazers",
+      "api": "blazers"
+    },
+    {
+      "name": "Sacramento Kings",
+      "api": "kings"
+    },
+    {
+      "name": "San Antonio Spurs",
+      "api": "spurs"
+    },
+    {
+      "name": "Toronto Raptors",
+      "api": "raptors"
+    },
+    {
+      "name": "Utah Jazz",
+      "api": "jazz"
+    },
+    {
+      "name": "Washington Wizards",
+      "api": "wizards"
+    }
+]
+
+

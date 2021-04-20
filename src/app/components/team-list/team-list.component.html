@@ -1,0 +1,4 @@
+<H2>NBA Teams</H2>
+<div *ngFor="let team of teamList">
+  <a [routerLink]="['/teams', team.api]">{{team.name}}</a>
+</div>

@@ -1,0 +1,10 @@
+<p>player-list works!</p>
+<p *ngIf="(players$)">This is here</p>
+<h2>Players</h2>
+<div *ngFor="let player of players$">
+  {{player.first_name}} {{player.last_name}}
+</div>
+<h2>Coaches</h2>
+<div *ngFor="let coach of coaches$">
+  {{coach.first_name}} {{ coach.last_name }}
+</div>
